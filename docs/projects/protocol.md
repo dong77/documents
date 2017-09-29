@@ -74,8 +74,7 @@ The following section discusses mathematical validation of the order rings. We r
 
 #### Sub-loop check
 This step prevents about [covered interest arbitrage](https://en.wikipedia.org/wiki/Covered_interest_arbitrage). Once a valid ring is found by a miner, he could be tempted to add other orders to it to achieve a zero-risk covered interest arbitrage.
-
-This is considered as an unfair conduct from the miner in Loopring. It causes the potential Margin on the orders to drop to 0 for the users while still being profitable for the miner due to the orders he added.
+This is considered as an unfair conduct from the miner in Loopring.
 
 The diagram bellow illustrates the previous valid ring where 2 orders were added.
 ![](../img/protocol/order-ring-sub-loop.png)
